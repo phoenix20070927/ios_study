@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ADA20941BEAFD70003D4279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA20931BEAFD70003D4279 /* main.m */; };
+		6ADA20971BEAFD70003D4279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA20961BEAFD70003D4279 /* AppDelegate.m */; };
+		6ADA209A1BEAFD70003D4279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA20991BEAFD70003D4279 /* ViewController.m */; };
+		6ADA209D1BEAFD70003D4279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA209B1BEAFD70003D4279 /* Main.storyboard */; };
+		6ADA20A01BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA209E1BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodeld */; };
+		6ADA20A21BEAFD70003D4279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA20A11BEAFD70003D4279 /* Assets.xcassets */; };
+		6ADA20A51BEAFD70003D4279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA20A31BEAFD70003D4279 /* LaunchScreen.storyboard */; };
+		6ADA20B01BEAFD70003D4279 /* Quartz2D_WaterMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA20AF1BEAFD70003D4279 /* Quartz2D_WaterMaskTests.m */; };
+		6ADA20BB1BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA20BA1BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.m */; };
+		6ADA20CC1BEB03C2003D4279 /* IMG_0010.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA20CB1BEB03C2003D4279 /* IMG_0010.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ADA20AC1BEAFD70003D4279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADA20871BEAFD70003D4279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADA208E1BEAFD70003D4279;
+			remoteInfo = Quartz2D_WaterMask;
+		};
+		6ADA20B71BEAFD71003D4279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADA20871BEAFD70003D4279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADA208E1BEAFD70003D4279;
+			remoteInfo = Quartz2D_WaterMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ADA208F1BEAFD70003D4279 /* Quartz2D_WaterMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2D_WaterMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADA20931BEAFD70003D4279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ADA20951BEAFD70003D4279 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ADA20961BEAFD70003D4279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ADA20981BEAFD70003D4279 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ADA20991BEAFD70003D4279 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ADA209C1BEAFD70003D4279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADA209F1BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quartz2D_WaterMask.xcdatamodel; sourceTree = "<group>"; };
+		6ADA20A11BEAFD70003D4279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ADA20A41BEAFD70003D4279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ADA20A61BEAFD70003D4279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADA20AB1BEAFD70003D4279 /* Quartz2D_WaterMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2D_WaterMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADA20AF1BEAFD70003D4279 /* Quartz2D_WaterMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2D_WaterMaskTests.m; sourceTree = "<group>"; };
+		6ADA20B11BEAFD70003D4279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADA20B61BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2D_WaterMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADA20BA1BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2D_WaterMaskUITests.m; sourceTree = "<group>"; };
+		6ADA20BC1BEAFD71003D4279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADA20CB1BEB03C2003D4279 /* IMG_0010.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0010.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADA208C1BEAFD70003D4279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADA20A81BEAFD70003D4279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADA20B31BEAFD71003D4279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ADA20861BEAFD70003D4279 = {
+			isa = PBXGroup;
+			children = (
+				6ADA20911BEAFD70003D4279 /* Quartz2D_WaterMask */,
+				6ADA20AE1BEAFD70003D4279 /* Quartz2D_WaterMaskTests */,
+				6ADA20B91BEAFD71003D4279 /* Quartz2D_WaterMaskUITests */,
+				6ADA20901BEAFD70003D4279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADA20901BEAFD70003D4279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA208F1BEAFD70003D4279 /* Quartz2D_WaterMask.app */,
+				6ADA20AB1BEAFD70003D4279 /* Quartz2D_WaterMaskTests.xctest */,
+				6ADA20B61BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ADA20911BEAFD70003D4279 /* Quartz2D_WaterMask */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA20951BEAFD70003D4279 /* AppDelegate.h */,
+				6ADA20961BEAFD70003D4279 /* AppDelegate.m */,
+				6ADA20981BEAFD70003D4279 /* ViewController.h */,
+				6ADA20991BEAFD70003D4279 /* ViewController.m */,
+				6ADA209B1BEAFD70003D4279 /* Main.storyboard */,
+				6ADA20A11BEAFD70003D4279 /* Assets.xcassets */,
+				6ADA20A31BEAFD70003D4279 /* LaunchScreen.storyboard */,
+				6ADA20A61BEAFD70003D4279 /* Info.plist */,
+				6ADA209E1BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodeld */,
+				6ADA20921BEAFD70003D4279 /* Supporting Files */,
+			);
+			path = Quartz2D_WaterMask;
+			sourceTree = "<group>";
+		};
+		6ADA20921BEAFD70003D4279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA20CB1BEB03C2003D4279 /* IMG_0010.JPG */,
+				6ADA20931BEAFD70003D4279 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ADA20AE1BEAFD70003D4279 /* Quartz2D_WaterMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA20AF1BEAFD70003D4279 /* Quartz2D_WaterMaskTests.m */,
+				6ADA20B11BEAFD70003D4279 /* Info.plist */,
+			);
+			path = Quartz2D_WaterMaskTests;
+			sourceTree = "<group>";
+		};
+		6ADA20B91BEAFD71003D4279 /* Quartz2D_WaterMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADA20BA1BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.m */,
+				6ADA20BC1BEAFD71003D4279 /* Info.plist */,
+			);
+			path = Quartz2D_WaterMaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ADA208E1BEAFD70003D4279 /* Quartz2D_WaterMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADA20BF1BEAFD71003D4279 /* Build configuration list for PBXNativeTarget "Quartz2D_WaterMask" */;
+			buildPhases = (
+				6ADA208B1BEAFD70003D4279 /* Sources */,
+				6ADA208C1BEAFD70003D4279 /* Frameworks */,
+				6ADA208D1BEAFD70003D4279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quartz2D_WaterMask;
+			productName = Quartz2D_WaterMask;
+			productReference = 6ADA208F1BEAFD70003D4279 /* Quartz2D_WaterMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ADA20AA1BEAFD70003D4279 /* Quartz2D_WaterMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADA20C21BEAFD71003D4279 /* Build configuration list for PBXNativeTarget "Quartz2D_WaterMaskTests" */;
+			buildPhases = (
+				6ADA20A71BEAFD70003D4279 /* Sources */,
+				6ADA20A81BEAFD70003D4279 /* Frameworks */,
+				6ADA20A91BEAFD70003D4279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADA20AD1BEAFD70003D4279 /* PBXTargetDependency */,
+			);
+			name = Quartz2D_WaterMaskTests;
+			productName = Quartz2D_WaterMaskTests;
+			productReference = 6ADA20AB1BEAFD70003D4279 /* Quartz2D_WaterMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ADA20B51BEAFD71003D4279 /* Quartz2D_WaterMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADA20C51BEAFD71003D4279 /* Build configuration list for PBXNativeTarget "Quartz2D_WaterMaskUITests" */;
+			buildPhases = (
+				6ADA20B21BEAFD71003D4279 /* Sources */,
+				6ADA20B31BEAFD71003D4279 /* Frameworks */,
+				6ADA20B41BEAFD71003D4279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADA20B81BEAFD71003D4279 /* PBXTargetDependency */,
+			);
+			name = Quartz2D_WaterMaskUITests;
+			productName = Quartz2D_WaterMaskUITests;
+			productReference = 6ADA20B61BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ADA20871BEAFD70003D4279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ppl;
+				TargetAttributes = {
+					6ADA208E1BEAFD70003D4279 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6ADA20AA1BEAFD70003D4279 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6ADA208E1BEAFD70003D4279;
+					};
+					6ADA20B51BEAFD71003D4279 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6ADA208E1BEAFD70003D4279;
+					};
+				};
+			};
+			buildConfigurationList = 6ADA208A1BEAFD70003D4279 /* Build configuration list for PBXProject "Quartz2D_WaterMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ADA20861BEAFD70003D4279;
+			productRefGroup = 6ADA20901BEAFD70003D4279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADA208E1BEAFD70003D4279 /* Quartz2D_WaterMask */,
+				6ADA20AA1BEAFD70003D4279 /* Quartz2D_WaterMaskTests */,
+				6ADA20B51BEAFD71003D4279 /* Quartz2D_WaterMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ADA208D1BEAFD70003D4279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADA20CC1BEB03C2003D4279 /* IMG_0010.JPG in Resources */,
+				6ADA20A51BEAFD70003D4279 /* LaunchScreen.storyboard in Resources */,
+				6ADA20A21BEAFD70003D4279 /* Assets.xcassets in Resources */,
+				6ADA209D1BEAFD70003D4279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADA20A91BEAFD70003D4279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADA20B41BEAFD71003D4279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ADA208B1BEAFD70003D4279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADA209A1BEAFD70003D4279 /* ViewController.m in Sources */,
+				6ADA20971BEAFD70003D4279 /* AppDelegate.m in Sources */,
+				6ADA20A01BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodeld in Sources */,
+				6ADA20941BEAFD70003D4279 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADA20A71BEAFD70003D4279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADA20B01BEAFD70003D4279 /* Quartz2D_WaterMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADA20B21BEAFD71003D4279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADA20BB1BEAFD71003D4279 /* Quartz2D_WaterMaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ADA20AD1BEAFD70003D4279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADA208E1BEAFD70003D4279 /* Quartz2D_WaterMask */;
+			targetProxy = 6ADA20AC1BEAFD70003D4279 /* PBXContainerItemProxy */;
+		};
+		6ADA20B81BEAFD71003D4279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADA208E1BEAFD70003D4279 /* Quartz2D_WaterMask */;
+			targetProxy = 6ADA20B71BEAFD71003D4279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ADA209B1BEAFD70003D4279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADA209C1BEAFD70003D4279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ADA20A31BEAFD70003D4279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADA20A41BEAFD70003D4279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ADA20BD1BEAFD71003D4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ADA20BE1BEAFD71003D4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ADA20C01BEAFD71003D4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quartz2D_WaterMask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.foolkid.Quartz2D-WaterMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ADA20C11BEAFD71003D4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Quartz2D_WaterMask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.foolkid.Quartz2D-WaterMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6ADA20C31BEAFD71003D4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Quartz2D_WaterMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.foolkid.Quartz2D-WaterMaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2D_WaterMask.app/Quartz2D_WaterMask";
+			};
+			name = Debug;
+		};
+		6ADA20C41BEAFD71003D4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Quartz2D_WaterMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.foolkid.Quartz2D-WaterMaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2D_WaterMask.app/Quartz2D_WaterMask";
+			};
+			name = Release;
+		};
+		6ADA20C61BEAFD71003D4279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Quartz2D_WaterMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.foolkid.Quartz2D-WaterMaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quartz2D_WaterMask;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6ADA20C71BEAFD71003D4279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Quartz2D_WaterMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.foolkid.Quartz2D-WaterMaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quartz2D_WaterMask;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ADA208A1BEAFD70003D4279 /* Build configuration list for PBXProject "Quartz2D_WaterMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADA20BD1BEAFD71003D4279 /* Debug */,
+				6ADA20BE1BEAFD71003D4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADA20BF1BEAFD71003D4279 /* Build configuration list for PBXNativeTarget "Quartz2D_WaterMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADA20C01BEAFD71003D4279 /* Debug */,
+				6ADA20C11BEAFD71003D4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ADA20C21BEAFD71003D4279 /* Build configuration list for PBXNativeTarget "Quartz2D_WaterMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADA20C31BEAFD71003D4279 /* Debug */,
+				6ADA20C41BEAFD71003D4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ADA20C51BEAFD71003D4279 /* Build configuration list for PBXNativeTarget "Quartz2D_WaterMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADA20C61BEAFD71003D4279 /* Debug */,
+				6ADA20C71BEAFD71003D4279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ADA209E1BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ADA209F1BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodel */,
+			);
+			currentVersion = 6ADA209F1BEAFD70003D4279 /* Quartz2D_WaterMask.xcdatamodel */;
+			path = Quartz2D_WaterMask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ADA20871BEAFD70003D4279 /* Project object */;
+}
